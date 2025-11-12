@@ -1,0 +1,18 @@
+h1, h2 {
+    color: purple;
+}
+p{
+    color: gray;
+}
+ul {
+    border: 2px orange solid
+}
+ol {
+    border: 2px purple solid
+}
+dt {
+    color: purple;
+}
+strong {
+    color: purple;
+}
