@@ -40,13 +40,49 @@ a:visited {
 a:hover {
     text-decoration: none;
 }
-.alert p:first-child {
-    font-size: 250%;
+.cont2 p:first-child {
+    font-size: 150%;
 }
 .cont2 p:first-child::first-line {
     color: red;
 }
-.secondrow {
+tr:nth-child(even) {
     background-color: #333333;
     color: white;
+}
+.cont3 h2 + p {
+    color: red;
+}
+
+.list > li {
+    list-style: none;
+    border-bottom: 1px grey solid;
+}
+
+.cont4 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cont4 li {
+  margin-bottom: 0.5em;
+}
+
+.cont4 a {
+  display: block;
+  padding: 0.5em;
+}
+
+.cont4 a {
+  border: 5px solid grey;
+}
+a[title] {
+    border-color: pink;
+}
+a[href*="contact"] {
+    border-color: orange;
+}
+a[href^="https"] {
+    border-color: green
 }
