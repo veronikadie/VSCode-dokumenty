@@ -1,0 +1,80 @@
+body {
+    background-color: #282c34;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.menu {
+    background-color: #3a404b;
+    box-shadow: 1px 1px black;
+    height: 40px;
+    padding-top: 3%;
+}
+a {
+    text-decoration: none;
+    color: white;
+    margin: 3%;
+    padding-bottom: 1%;
+}
+
+.active-link {
+    color: #61dafb;
+    border-bottom: 1px solid #61dafb;
+}
+
+.hracie-pole {
+    background-color: #3a404b;
+    font-size: 12px;
+    width: 500px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+    padding: 1.5%;
+    margin-left: 33%;
+}
+/*problém zacentrovať kontainer do stredu stránky, vertikálne aj horizontálne, preto dávam to margin-left zatiaľ, aj keď viem, že to je zle. */
+
+h1 {
+    color: #61dafb;
+}
+
+p {
+    padding: 1.5%;
+}
+.zacat-hrat {
+    background-color: #8fdff5;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 1.5%;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+.zacat-hrat:hover, 
+button:hover {
+    background-color: #61dafb;
+}
+
+button {
+    background-color: #8fdff5;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 1.5%;
+    border: 1px solid black;
+}
+
+
+/* Footer section */
+
+footer {
+    margin-top: auto;
+}
+
+.container-footer {
+    background-color: #3a404b;
+}
+
