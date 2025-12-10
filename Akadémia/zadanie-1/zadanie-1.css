@@ -3,11 +3,13 @@ body {
     font-family: sans-serif;
     text-align: center;
     color: white;
+    height: 100%;
+    margin: 0;
 }
 
 .menu {
     background-color: #3a404b;
-    box-shadow: 1px 1px black;
+    box-shadow: 1px 1px 10px rgb(27, 27, 27);
     height: 40px;
     padding-top: 3%;
 }
@@ -23,18 +25,21 @@ a {
     border-bottom: 1px solid #61dafb;
 }
 
+.container-main {
+    display: flex;
+    justify-content: center; /* horizontálne zarovanie */
+    align-items: center; /* vertikálne zarovnanie */
+    height: 100vh;  /* výška celej obrazovky */
+}
+
 .hracie-pole {
     background-color: #3a404b;
     font-size: 12px;
     width: 500px;
-    margin-top: 10%;
-    margin-bottom: 10%;
     border-radius: 10px;
-    box-shadow: 2px 2px 2px black;
+    box-shadow: 1px 1px 10px rgb(27, 27, 27);
     padding: 1.5%;
-    margin-left: 33%;
 }
-/*problém zacentrovať kontainer do stredu stránky, vertikálne aj horizontálne, preto dávam to margin-left zatiaľ, aj keď viem, že to je zle. */
 
 h1 {
     color: #61dafb;
@@ -44,7 +49,7 @@ p {
     padding: 1.5%;
 }
 .zacat-hrat {
-    background-color: #8fdff5;
+    background-color: #42d1f8;
     color: black;
     font-weight: bold;
     border-radius: 10px;
@@ -59,7 +64,7 @@ button:hover {
 }
 
 button {
-    background-color: #8fdff5;
+    background-color: #42d1f8;
     color: black;
     font-weight: bold;
     border-radius: 10px;
